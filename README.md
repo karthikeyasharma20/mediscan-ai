@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# 🏥 MediScan AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An AI-powered Medical Report Analyzer built using React, Node.js, Firebase, OCR, and Google Gemini AI.
 
-## Available Scripts
+![Banner](https://img.shields.io/badge/AI-Medical-blue)
+![React](https://img.shields.io/badge/React-19-blue)
+![Firebase](https://img.shields.io/badge/Firebase-Authentication-orange)
+![Gemini](https://img.shields.io/badge/Gemini-AI-green)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 📄 Upload Medical Reports
+- 🔍 OCR using Tesseract.js
+- 🤖 AI Analysis using Google Gemini
+- 📊 Health Dashboard
+- 📈 Health Score
+- 🩸 Abnormal Value Detection
+- 💡 AI Health Suggestions
+- 🔐 Firebase Authentication
+- ☁ Firestore Database
+- 📜 Report History
+- 📱 Responsive Design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
 
-### `npm run build`
+- React.js
+- React Router
+- Axios
+- React Dropzone
+- Chart.js
+- Framer Motion
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Backend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js
+- Express.js
+- Gemini AI
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Database
 
-### `npm run eject`
+- Firebase Firestore
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### OCR
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Tesseract.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📂 Project Structure
 
-## Learn More
+src/
+components/
+pages/
+services/
+firebase/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+server/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Frontend
 
-### Analyzing the Bundle Size
+```bash
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Backend
 
-### Making a Progressive Web App
+```bash
+cd server
+npm install
+node server.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Coming Soon...
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Future Improvements
 
-### `npm run build` fails to minify
+- Dark Mode
+- PDF Download
+- Voice Assistant
+- Doctor Dashboard
+- Health Charts
+- Appointment Booking
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Author
+
+K Karthikeya Sharma
